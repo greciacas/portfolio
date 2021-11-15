@@ -1,0 +1,28 @@
+.p1{
+  background: #EAC1AB;
+  color: black;
+  padding: 2em;
+}
+
+.p2{
+  background: #DDB39C;
+  color: black;
+  padding: 2em;
+}
+
+.p3{
+  background: #C89D86;
+  color: black;
+  padding: 2em;
+}
+
+.p4{
+  background: #B78B74;
+  color: black;
+  padding: 2em;
+}
+
+.icons{
+  display: flex;
+  justify-content: space-evenly;
+}
