@@ -2,7 +2,7 @@ import './Home.css';
 import { Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import Typed from 'react-typed';
-import Image from '../../src/images/imagebody.jpg';
+import Image from '../../../src/images/imagebody.jpg';
 
 const useStyles = makeStyles({
   title: {
@@ -10,7 +10,7 @@ const useStyles = makeStyles({
     fontWeight: "bold",
     fontFamily: "Handlee",
     position: "absolute",
-    top: "63%",
+    top: "61%",
     left: "50%",
     transform: "translate(-50%, -50%)",
     width: "100vw",

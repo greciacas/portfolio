@@ -1,10 +1,11 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Nav/Navbar';
-import Projects from './screens/Projects';
-import Home from './screens/Home';
-import About from './screens/About';
-import Contact from './screens/Contact';
+import Projects from './screens/Projects/Projects';
+import Home from './screens/Home/Home';
+import About from './screens/About/About';
+import Contact from './screens/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/projects' element={<Projects/>}/>
       </Routes>
+      <Footer/>
     </div>
   );
 }

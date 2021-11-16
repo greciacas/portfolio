@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Macondo+Swash+Caps&family=Mate+SC&display=swap');
+
+a{
+  text-decoration: none;
+}
+
+.main-footer{
+  color: rgb(223, 181, 126);
+  background-color: rgb(48, 47, 47);
+  padding-top: 0.1em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+h3{
+  font-family: 'Handlee', cursive;
+}
+
+.copyright{
+  font-family: 'Mate SC', serif;
+}
+
+.row{
+  display: flex;
+  justify-content: space-around;
+}

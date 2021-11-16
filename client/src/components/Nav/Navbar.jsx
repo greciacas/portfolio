@@ -15,7 +15,7 @@ export default function Navbar() {
         <Link to='/' className='link'><img src={Logo} alt='logo' /></Link>
       </div>
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-      <li className='nav-item'> <Link to='/' className='link'>Home</Link> </li>
+        <li className='nav-item'> <Link to='/' className='link'>Home</Link> </li>
         <li className='nav-item'> <Link to='about' className='link'>About Me</Link> </li>
         <li className='nav-item'> <Link to='projects' className='link'>View Projects</Link> </li>
         <li className='nav-item'> <Link to='contact' className='link'>Contact</Link> </li>

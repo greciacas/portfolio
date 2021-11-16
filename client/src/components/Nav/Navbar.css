@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Macondo+Swash+Caps&family=Major+Mono+Display&family=Sansita:ital,wght@0,400;1,900&display=swap');
+
 ul{
   list-style-type: none;
 }
@@ -15,6 +17,7 @@ ul{
   align-items: center;
   padding: 1 rem;
   background-color: rgb(48, 47, 47);
+  
 }
 
 .navbar img{
@@ -30,6 +33,7 @@ ul{
 }
 
 .nav-item{
+  font-family: 'Macondo Swash Caps', cursive;
   padding: 1rem;
 }
 
@@ -51,7 +55,7 @@ ul{
     transition: 0.5s;
   }
 
-  .nav-menu.active{
+  /* .nav-menu.active{
     left: 0;
   }
 
@@ -59,7 +63,7 @@ ul{
     margin: 1.5rem;
     font-size: 1.5rem;
     justify-content: center;
-  }
+  } */
 
   .menu{
     display: flex;
