@@ -18,7 +18,6 @@ export default function Navbar() {
         <li className='nav-item'> <Link to='/' className='link'>Home</Link> </li>
         <li className='nav-item'> <Link to='about' className='link'>About Me</Link> </li>
         <li className='nav-item'> <Link to='projects' className='link'>View Projects</Link> </li>
-        <li className='nav-item'> <Link to='contact' className='link'>Contact</Link> </li>
       </ul>
       <div className='menu' onClick={handleClick}>
         {click ? (<FaTimes size={30} style={{ color: 'bisque' }} />)

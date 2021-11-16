@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Macondo+Swash+Caps&family=Mate+SC&display=swap');
+
+a{
+  color: black;
+}
+
+p{
+  font-size: 20px;
+  font-family: 'Mate SC';
+}
+
+.about-me{
+  display: flex;
+  padding: 45px;
+  margin: 20px;
+}
+
+.summary{
+  display: inline-grid;
+  align-content: center;
+  justify-items: center;
+}
+
+.resume{
+  padding: 8px 17px;
+  background-color: burlywood;
+  border-radius: 4px;
+  cursor: pointer;
+  border-color: burlywood;
+}
+
+.resume:hover{
+  box-shadow: 1px 1px 9px 1px rgb(230, 208, 171);
+  transform: scale(1.1);
+}

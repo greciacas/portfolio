@@ -29,7 +29,7 @@ export default function Footer() {
         
         <div className='row'>
           <p className='copyright'>
-            &copy;{new Date().getFullYear()} by GRECIA CASTILLO | All rights reserved
+            &copy;{new Date().getFullYear()} by GRECIA CASTILLO 
           </p>
         </div>
       </div>

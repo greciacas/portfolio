@@ -7,7 +7,7 @@ export default function P2() {
   const p2 = useSpring({
     from: { opacity: 0 },
     to: { opacity: 1 },
-    config: { delay: 3000, duration: 3000 },
+    config: { delay: 4000, duration: 4000 },
   });
 
   return (
