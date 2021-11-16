@@ -1,0 +1,10 @@
+.p3{
+  background: #C89D86;
+  color: black;
+  padding: 2em;
+}
+
+.icons{
+  display: flex;
+  justify-content: space-evenly;
+}

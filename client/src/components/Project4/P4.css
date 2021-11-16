@@ -1,0 +1,10 @@
+.p4{
+  background: #B78B74;
+  color: black;
+  padding: 2em;
+}
+
+.icons{
+  display: flex;
+  justify-content: space-evenly;
+}
