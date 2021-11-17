@@ -55,7 +55,7 @@ ul{
     transition: 0.5s;
   }
 
-  /* .nav-menu.active{
+  .nav-menu.active{
     left: 0;
   }
 
@@ -63,7 +63,7 @@ ul{
     margin: 1.5rem;
     font-size: 1.5rem;
     justify-content: center;
-  } */
+  }
 
   .menu{
     display: flex;
