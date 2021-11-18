@@ -1,12 +1,12 @@
 import './About.css';
-import Art from '../../../src/images/artwork.png';
+import Me from '../../../src/images/me.jpg';
 
 export default function About() {
   return (
     <div>
     <div className='about-me'>
       <div>
-        <img src={Art} alt='body'/>
+        <img src={Me} alt='me' className='me'/>
       </div>
       <div className='summary'>
         <p>

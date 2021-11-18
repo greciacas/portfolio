@@ -15,10 +15,16 @@ p{
   margin: 20px;
 }
 
+.me{
+  max-width: 300px;
+  max-height: 500px;
+}
+
 .summary{
   display: inline-grid;
   align-content: center;
   justify-items: center;
+  padding: 28px;
 }
 
 .resume{
