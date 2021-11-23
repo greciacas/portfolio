@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Macondo+Swash+Caps&family=Mate+SC&display=swap');
 
-.EVZ{
+.WYSP{
   font-family: 'Macondo Swash Caps';
   font-size: 30px;
-  margin-top: 110px;
+  margin-top: 90px;
 }
 
 .p2{
@@ -13,13 +13,14 @@
 }
 
 .info{
-  font-size: 20px;
+  font-size: 23px;
   font-family: 'Mate SC';
   margin-top: 60px;
 }
 
-.middle{
-  display: flex;
+.w-icons{
+  display: inline-block;
+  padding: 40px;
 }
 
 .code,
@@ -41,10 +42,10 @@
   margin-top: 10px;
 }
 
-.project-3{
-  border-radius: 6px;
+.project-2{
+  padding: 10px;
 }
 
-.project-3:hover{
+.project-2:hover{
   transform: scale(0.9);
 }

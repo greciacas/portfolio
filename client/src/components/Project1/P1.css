@@ -1,10 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Macondo+Swash+Caps&family=Mate+SC&display=swap');
+
+.Books{
+  font-family: 'Macondo Swash Caps';
+  font-size: 30px;
+  margin-top: 110px;
+}
+
 .p1{
-  background: #EAC1AB;
+  background: #B78B74;
   color: black;
   padding: 2em;
 }
 
-.icons{
-  display: flex;
-  justify-content: space-evenly;
+.info{
+  font-size: 23px;
+  font-family: 'Mate SC';
+  margin-top: 60px;
+}
+
+.w-icons{
+  display: inline-block;
+  padding: 40px;
+}
+
+.code,
+.site{
+  padding: 8px 17px;
+  background-color: rgb(255, 216, 166);
+  border-radius: 4px;
+  cursor: pointer;
+  border-color: burlywood;
+}
+
+.code:hover,
+.site:hover{
+  box-shadow: 1px 1px 9px 1px rgb(230, 208, 171);
+  transform: scale(1.1);
+}
+
+.buttons{
+  margin-top: 10px;
+}
+
+.project-1{
+  padding: 10px;
+}
+
+.project-1:hover{
+  transform: scale(0.9);
 }

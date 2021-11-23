@@ -10,7 +10,7 @@ const useStyles = makeStyles({
     fontWeight: "bold",
     fontFamily: "Handlee",
     position: "absolute",
-    top: "60.1%",
+    top: "49%",
     left: "50%",
     transform: "translate(-50%, -50%)",
     width: "100vw",
@@ -27,8 +27,8 @@ export default function Home() {
       <img src={Image} alt='body'/>
       <Typography variant='h5' className={classes.title}>
         <Typed strings={["Jr. Front-End Developer", "Jr. Software Engineer", "Senior Foodie", "Based in New Jersey"]}
-          typeSpeed={40}
-          backSpeed={60}
+          typeSpeed={70}
+          backSpeed={80}
           loop
         />
       </Typography>
