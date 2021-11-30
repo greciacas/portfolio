@@ -4,20 +4,23 @@ import { makeStyles } from '@material-ui/core/styles';
 import Typed from 'react-typed';
 import Image from '../../../src/images/imagebody.jpg';
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme)=>({
   title: {
     color: "#E29924",
     fontWeight: "bold",
     fontFamily: "Handlee",
     position: "absolute",
-    top: "49%",
+    top: "48%",
     left: "50%",
     transform: "translate(-50%, -50%)",
     width: "100vw",
     textAlign: "center",
-    zIndex: 1
-  }
-});
+    zIndex: 1,
+    [theme.breakpoints.down('xs')]: {
+      top: "44%"
+    },
+  },
+}));
 
 export default function Home() {
   const classes = useStyles();
