@@ -7,9 +7,15 @@ a{
 .main-footer{
   color: rgb(223, 181, 126);
   background-color: rgb(48, 47, 47);
-  position: sticky;
+  /* position: sticky;
   top: 100%;
-  bottom: 100%;
+  bottom: 100%; */
+  position: relative;
+  bottom: 0;
+  /* top: 100; */
+  /* left: 0; */
+  /* width: 100%; */
+  flex-shrink: 0;
 }
 
 h3{
