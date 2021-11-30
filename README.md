@@ -1,3 +1,3 @@
 # portfolio
 
-[link to portfolio](greciacastillo-portfolio.surge.sh)
+[link to portfolio](https://greciacastillo-portfolio.surge.sh)
