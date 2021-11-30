@@ -10,9 +10,9 @@ p{
 }
 
 .about-me{
-  display: flex;
-  padding: 45px;
-  margin: 20px;
+  /* display: flex; */
+  padding: 55px;
+  margin: 25px;
 }
 
 .me{
@@ -38,4 +38,21 @@ p{
 .resume:hover{
   box-shadow: 1px 1px 9px 1px rgb(230, 208, 171);
   transform: scale(1.1);
+}
+
+@media (max-width: 450px){
+  .about-me{
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+    padding: 5px;
+  }
+
+  .summary{
+    padding: 3px;
+    border-style: double;
+    border-color: #b78b74;
+    border-width: thick;
+  }
 }

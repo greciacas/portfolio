@@ -24,7 +24,7 @@ export default function Home() {
 
   return (
     <div className='body'>
-      <img src={Image} alt='body'/>
+      <img src={Image} alt='body' className='home-body-bg'/>
       <Typography variant='h5' className={classes.title}>
         <Typed strings={["Jr. Front-End Developer", "Jr. Software Engineer", "Senior Foodie", "Based in New Jersey"]}
           typeSpeed={70}

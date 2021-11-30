@@ -9,6 +9,7 @@ a{
   background-color: rgb(48, 47, 47);
   position: sticky;
   top: 100%;
+  bottom: 100%;
 }
 
 h3{
@@ -22,4 +23,10 @@ h3{
 .row{
   display: flex;
   justify-content: space-around;
+}
+
+@media (max-width: 450px){
+  .main-footer{
+    padding: 10px;
+  }
 }
