@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme)=>({
     textAlign: "center",
     zIndex: 1,
     [theme.breakpoints.down('xs')]: {
-      top: "44%"
+      top: "50%"
     },
   },
 }));
